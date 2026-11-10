@@ -4,7 +4,7 @@
         "name":  "HiAnime Downloader",
         "description":  "Searches, stream-extracts, and downloads anime series and episodes from HiAnime directly into the Jellyfin media library with an embedded dashboard GUI.",
         "overview":  "HiAnime downloader and dashboard GUI for Jellyfin Server.",
-        "owner":  "Jellyfin Community",
+        "owner":  "Tyler",
         "category":  "General",
         "versions":  [
                          {
