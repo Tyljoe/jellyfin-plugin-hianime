@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "guid":  "3f8c5c7e-85a2-4a0b-9dfb-9db692b1a457",
         "name":  "HiAnime Downloader",
@@ -11,9 +11,9 @@
                              "version":  "1.0.0.0",
                              "changelog":  "Initial release: HiAnime search, stream extractor (MegaCloud AES-256-CBC), multi-segment HLS downloader, FFmpeg remuxer, WebVTT subtitle embedder, Jellyfin anime naming, and dashboard Web GUI.",
                              "targetAbi":  "10.9.0.0",
-                             "sourceUrl":  "https://github.com/USERNAME/jellyfin-plugin-hianime/releases/download/v1.0.0.0/Jellyfin.Plugin.HiAnime_1.0.0.0.zip",
+                             "sourceUrl":  "https://raw.githubusercontent.com/Tyljoe/jellyfin-plugin-hianime/main/dist/Jellyfin.Plugin.HiAnime_1.0.0.0.zip",
                              "checksum":  "379fd10c709b98d6e91ca0cf74d94bba",
-                             "timestamp":  "2026-11-10T17:20:10Z"
+                             "timestamp":  "2026-11-10T17:20:07Z"
                          }
                      ]
     }
