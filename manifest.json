@@ -8,19 +8,27 @@
     "category": "General",
     "versions": [
       {
+        "version": "1.8.1.1",
+        "changelog": "v1.8.1.1 (Source Badges & Gogoanime Direct Search):\n- Clear badges on every poster: 'AniWorld', '\ud83c\uddec\ud83c\udde7 Gogoanime', and '\ud83c\udde9\ud83c\uddea s.to'\n- Source indicated in Series detail view\n- Dedicated Search Source dropdown filter: 'All Sources', 'Gogoanime (English Dub)', 'AniWorld', 's.to'\n- Automatic configuration migration to enable Gogoanime\n- Compatible with Jellyfin 10.9, 10.10, and 10.11",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/Tyljoe/jellyfin-plugin-hianime/main/Jellyfin.Plugin.AniWorld_1.8.1.1.zip",
+        "checksum": "46C3FEA80B9695C8F2D65C3A7A1867DF",
+        "timestamp": "2026-11-11T20:05:32Z"
+      },
+      {
         "version": "1.8.1.0",
-        "changelog": "v1.8.1.0 (Direct Gogoanime Search Filter + Auto-Migration):\n- Added dedicated Source Filter dropdown directly on the Search page: 'All Sources', 'Gogoanime (English Dub)', 'AniWorld', 's.to'\n- Prioritized English Dub (Gogoanime) results at the top of search results\n- Fixed legacy configuration override: plugin automatically migrates and enables Gogoanime\n- Bright visual badge for Gogoanime cards with English Dub flags\n- Full compatibility with Jellyfin 10.9, 10.10, and 10.11",
+        "changelog": "v1.8.1.0 (Direct Gogoanime Search Filter + Auto-Migration)",
         "targetAbi": "10.9.0.0",
         "sourceUrl": "https://raw.githubusercontent.com/Tyljoe/jellyfin-plugin-hianime/main/Jellyfin.Plugin.AniWorld_1.8.1.0.zip",
-        "checksum": "C45227D93A15696AEB2F8AB5633C5AF7",
-        "timestamp": "2026-11-11T19:36:47Z"
+        "checksum": "46C3FEA80B9695C8F2D65C3A7A1867DF",
+        "timestamp": "2026-11-11T20:03:12Z"
       },
       {
         "version": "1.8.0.0",
         "changelog": "v1.8.0.0 (Unlocked English Dub/Sub + AniWorld English Support + Gogoanime Provider)",
         "targetAbi": "10.9.0.0",
         "sourceUrl": "https://raw.githubusercontent.com/Tyljoe/jellyfin-plugin-hianime/main/Jellyfin.Plugin.AniWorld_1.8.0.0.zip",
-        "checksum": "C45227D93A15696AEB2F8AB5633C5AF7",
+        "checksum": "46C3FEA80B9695C8F2D65C3A7A1867DF",
         "timestamp": "2026-11-11T19:29:00Z"
       }
     ]
