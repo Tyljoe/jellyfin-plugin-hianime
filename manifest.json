@@ -1,20 +1,20 @@
 [
     {
-        "guid":  "3f8c5c7e-85a2-4a0b-9dfb-9db692b1a457",
-        "name":  "HiAnime Downloader",
-        "description":  "Searches, stream-extracts, and downloads anime series and episodes from HiAnime directly into the Jellyfin media library with an embedded dashboard GUI.",
-        "overview":  "HiAnime downloader and dashboard GUI for Jellyfin Server.",
-        "owner":  "Tyler",
-        "category":  "General",
-        "versions":  [
-                         {
-                             "version":  "1.0.0.0",
-                             "changelog":  "Initial release: HiAnime search, stream extractor (MegaCloud AES-256-CBC), multi-segment HLS downloader, FFmpeg remuxer, WebVTT subtitle embedder, Jellyfin anime naming, and dashboard Web GUI.",
-                             "targetAbi":  "10.9.0.0",
-                             "sourceUrl":  "https://raw.githubusercontent.com/Tyljoe/jellyfin-plugin-hianime/main/Jellyfin.Plugin.HiAnime_1.0.0.0.zip",
-                             "checksum":  "379fd10c709b98d6e91ca0cf74d94bba",
-                             "timestamp":  "2026-11-10T17:20:07Z"
-                         }
-                     ]
+        "guid": "e93d1d02-df60-4545-ae3c-7bb87dff024c",
+        "name": "AniWorld & Anime Downloader",
+        "description": "Search, browse, and download anime and series from AniWorld, SerienStream (s.to), and Gogoanime directly within Jellyfin. Supports German Dub, English Sub, and English Dub options without language restrictions.",
+        "overview": "Download anime and series from AniWorld, s.to, and Gogoanime directly within Jellyfin",
+        "owner": "Tyler",
+        "category": "General",
+        "versions": [
+            {
+                "version": "1.8.0.0",
+                "changelog": "v1.8.0.0 (Unlocked English Dub/Sub + Gogoanime Provider):\n- Unlocked English Dub and English Sub: German-only restrictions completely removed across UI and backend\n- Integrated active Gogoanime streaming provider specialized in English Dub and Sub content\n- Full MegaPlay stream resolution and decryption pipeline\n- Configurable Base URL (defaults to https://gogoanimes.fi)\n- Compatible with Jellyfin 10.9, 10.10, and 10.11 (Linux/Docker)",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://raw.githubusercontent.com/Tyljoe/jellyfin-plugin-hianime/main/Jellyfin.Plugin.AniWorld_1.8.0.0.zip",
+                "checksum": "597eda31115538aedd5281dd0ccde5be",
+                "timestamp": "2026-11-11T19:10:00Z"
+            }
+        ]
     }
 ]
