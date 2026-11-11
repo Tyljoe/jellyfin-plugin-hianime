@@ -1,20 +1,20 @@
 [
-    {
-        "guid": "e93d1d02-df60-4545-ae3c-7bb87dff024c",
-        "name": "AniWorld & Anime Downloader",
-        "description": "Search, browse, and download anime and series from AniWorld, SerienStream (s.to), and Gogoanime directly within Jellyfin. Supports German Dub, English Sub, and English Dub options without language restrictions.",
-        "overview": "Download anime and series from AniWorld, s.to, and Gogoanime directly within Jellyfin",
-        "owner": "Tyler",
-        "category": "General",
-        "versions": [
-            {
-                "version": "1.8.0.0",
-                "changelog": "v1.8.0.0 (Unlocked English Dub/Sub + Gogoanime Provider):\n- Unlocked English Dub and English Sub: German-only restrictions completely removed across UI and backend\n- Global Preferred Language selector: Select English Dub to download English Dub everywhere\n- Integrated active Gogoanime streaming provider specialized in English Dub and Sub content\n- Full MegaPlay stream resolution and decryption pipeline\n- Clear error messaging when a requested language is not hosted on AniWorld\n- Compatible with Jellyfin 10.9, 10.10, and 10.11 (Linux/Docker)",
-                "targetAbi": "10.9.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/Tyljoe/jellyfin-plugin-hianime/main/Jellyfin.Plugin.AniWorld_1.8.0.0.zip",
-                "checksum": "1b9bb501fc6c9e46c9732f16bdc8fe16",
-                "timestamp": "2026-11-11T19:24:00Z"
-            }
-        ]
-    }
+  {
+    "guid": "e93d1d02-df60-4545-ae3c-7bb87dff024c",
+    "name": "AniWorld & Anime Downloader",
+    "description": "Search, browse, and download anime and series from AniWorld, SerienStream (s.to), and Gogoanime directly within Jellyfin. Supports German Dub, English Sub, and English Dub options without language restrictions.",
+    "overview": "Download anime and series from AniWorld, s.to, and Gogoanime directly within Jellyfin",
+    "owner": "Tyler",
+    "category": "General",
+    "versions": [
+      {
+        "version": "1.8.0.0",
+        "changelog": "v1.8.0.0 (Unlocked English Dub/Sub + AniWorld English Support + Gogoanime Provider):\n- AniWorld English mapping: Language key 2 is now labeled as 'English (Dub / Sub)' and prioritizes English audio/sub releases\n- Automatic language fallback: If an episode lacks the preferred audio track, it automatically falls back to available English/German streams instead of failing\n- Global Preferred Language selector: Select English Dub to download English everywhere\n- Integrated active Gogoanime streaming provider specialized in English Dub and Sub content\n- Full MegaPlay stream resolution and decryption pipeline\n- Compatible with Jellyfin 10.9, 10.10, and 10.11 (Linux/Docker)",
+        "targetAbi": "10.9.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/Tyljoe/jellyfin-plugin-hianime/main/Jellyfin.Plugin.AniWorld_1.8.0.0.zip",
+        "checksum": "05C0D52920D41FF57207936487ACB583",
+        "timestamp": "2026-11-11T19:29:00Z"
+      }
+    ]
+  }
 ]
